@@ -35,7 +35,7 @@ public class NotifyWindow extends JDialog implements ActionListener,
 	/**
 	 * Constructor with 4 parameters Type of notification, message, delay,
 	 * position
-	 * 
+	 *
 	 * @param notification
 	 *            is a color you can get it with NotifyType.DEFAULT_NOTIFICATION
 	 *            for example
@@ -104,7 +104,7 @@ public class NotifyWindow extends JDialog implements ActionListener,
 		this.timerPrint.setRepeats(false);
 		this.timerPrint.start();
 	}
-	
+
 	public NPosition getPosition() {
 		return position;
 	}
@@ -112,16 +112,16 @@ public class NotifyWindow extends JDialog implements ActionListener,
 	public void setPosition(NPosition position) {
 		this.position = position;
 	}
-	
+
 	/**
 	 * Méthod to clear the Insets
 	 * @params position
 	 * */
 	public void clear(NPosition position) {
 		if (position == NPosition.TOP_LEFT) {
-			topLeftInsets.y = topLeftInsets.y - this.getHeight() - blocSpacing; 
+			topLeftInsets.y = topLeftInsets.y - this.getHeight() - blocSpacing;
 		} else if (position == NPosition.TOP_RIGHT) {
-			topRightInsets.y = topRightInsets.y - this.getHeight() - blocSpacing ;			
+			topRightInsets.y = topRightInsets.y - this.getHeight() - blocSpacing ;
 		}else if(position == NPosition.BOTTOM_LEFT){
 			bottomLeftInsets.y = bottomLeftInsets.y -  this.getHeight() - blocSpacing;
 		}else if(position == NPosition.BOTTOM_RIGHT){

@@ -9,7 +9,7 @@ public enum NPosition implements ScreenDimension {
 		public Point getPosition(JDialog window) {
 			final int x = topLeftInsets.x;
 			final int y = topLeftInsets.y;
-			topLeftInsets.y += window.getHeight() + blocSpacing;  
+			topLeftInsets.y += window.getHeight() + blocSpacing;
 			return new Point(x, y);
 		}
 	},

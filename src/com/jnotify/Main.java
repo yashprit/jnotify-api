@@ -1,4 +1,4 @@
-package com.sbix.jnotify;
+package com.jnotify;
 
 
 public class Main {

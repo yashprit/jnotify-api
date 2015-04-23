@@ -1,4 +1,4 @@
-package com.sbix.jnotify;
+package com.jnotify;
 
 import java.awt.Color;
 import java.awt.Dimension;

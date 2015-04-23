@@ -1,4 +1,4 @@
-package com.sbix.jnotify;
+package com.jnotify;
 
 import java.awt.Dimension;
 import java.awt.Insets;

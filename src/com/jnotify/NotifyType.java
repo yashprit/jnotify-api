@@ -33,7 +33,7 @@ public class NotifyType extends JPanel  {
     	this.setLayout(layout);
     	this.setBorder(new EmptyBorder(3,3,3,3));
     	this.label_msg.setFont(police);
-    	this.label_msg.setText("<html>"+message+"</html>");
+    	this.label_msg.setText("<html>" + message + "</html>");
     	this.label_msg.setForeground(new Color(255,255,255));
     	this.add(label_msg);
     	this.setBackground(notficationType);
